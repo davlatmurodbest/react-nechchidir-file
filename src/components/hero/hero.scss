@@ -1,0 +1,71 @@
+.hero {
+    .container {
+        background: url('../img/Bitmap.png') no-repeat;
+        background-size: contain;
+        width: 1240px;
+        height: 650px;
+        margin-bottom: 208px;
+    }
+
+    &__info {
+        padding-top: 133px;
+        padding-left: 165px;
+        width: 500px;
+        position: relative;
+    }
+
+    &__heading {
+        font-family: 'Space Mono';
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 56px;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 40px;
+    }
+
+    &__text {
+        font-family: 'Lexend Deca';
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+        color: #fff;
+        width: 400px;
+        margin: 0;
+        padding: 0;
+        margin-left: 100px;
+        margin-bottom: 40px;
+    }
+
+    &__pic {
+        position: absolute;
+        transform: translate(550px, -95px);
+    }
+
+    &__line {
+        background-color: #FCB72B;
+        width: 202px;
+        height: 15px;
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 330px;
+    }
+
+    &__get {
+        font-family: 'Space Mono';
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 25px;
+        padding: 14px 39px;
+        border: 2px solid #FCB72B;
+        background-color: #FCB72B;
+        color: #FFFFFF;
+        margin-left: 100px;
+
+        &:hover {
+           background-color: #ffffff00;
+        }
+    }
+}

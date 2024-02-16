@@ -1,0 +1,47 @@
+.footer {
+    .container {
+        background: url('../img/Mask.png') no-repeat;
+        background-size: contain;
+        width: 1440px;
+        height: 300px;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+    }
+
+    &__heading {
+        font-family: 'Space Mono';
+        font-size: 44px;
+        font-weight: 700;
+        line-height: 48px;
+        width: 415px;
+        color: #fff;
+        margin-left: 165px;
+    }
+
+    &__market {
+        margin-left: 336px;
+        display: flex;
+        gap: 18px;
+    }
+}
+
+.bottom {
+    background-color: #333A44;
+
+    .container {
+        display: flex;
+        padding: 35px 0;
+    }
+
+    &__pics {
+        margin-left: 570px;
+        display: flex;
+        gap: 24px;
+    }
+
+    path:hover {
+        fill: #fff;
+    }
+}
